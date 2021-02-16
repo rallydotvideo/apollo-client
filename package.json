@@ -52,7 +52,7 @@
     "bundlesize": "npm run build && bundlesize",
     "predeploy": "npm run build",
     "deploy": "cd dist && npm publish",
-    "prepare": "npm run build"
+    "postbuild": "npm run build"
   },
   "bundlesize": [
     {
